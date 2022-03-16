@@ -16,7 +16,7 @@ const Services = () => {
      return (
           <div>
                {
-                    // service.map(x => <Service x={x} key={x._id}></Service>)
+                    service.map(x => <Service x={x} key={x._id}></Service>)
                }
           </div>
      );
