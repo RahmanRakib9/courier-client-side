@@ -7,21 +7,24 @@ import { Container } from 'react-bootstrap';
 
 const Header = () => {
      return (
-          <Container>
-               <section className='section-container'>
-                    <div className='flex-container'>
-                         <h3>We Provide Best Courier & Parcel Services</h3>
-                         <div  >
-                              <div >
-                                   <FontAwesomeIcon icon={faFacebook} className='social-link' />
-                                   <FontAwesomeIcon icon={faGithub} className='social-link' />
-                                   <FontAwesomeIcon icon={faTwitter} className='social-link' />
-                                   <FontAwesomeIcon icon={faEnvelope} className='social-link' />
+          <section >
+               <Container >
+                    <section className='section-container' >
+                         <div className='flex-container'>
+                              <h6>We Provide Best Courier & Parcel Services</h6>
+                              <div  >
+                                   <div >
+                                        <FontAwesomeIcon icon={faFacebook} className='social-link' />
+                                        <FontAwesomeIcon icon={faGithub} className='social-link' />
+                                        <FontAwesomeIcon icon={faTwitter} className='social-link' />
+                                        <FontAwesomeIcon icon={faEnvelope} className='social-link' />
+                                   </div>
                               </div>
                          </div>
-                    </div>
-               </section>
-          </Container>
+                    </section>
+               </Container>
+
+          </section>
      );
 };
 
