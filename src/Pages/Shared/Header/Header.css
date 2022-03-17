@@ -10,4 +10,9 @@
 
 .social-link {
      margin-left: 10px;
+     color: rgba(128, 128, 128, 0.883);
+}
+
+.social-link:hover {
+     font-size: 20px;
 }
