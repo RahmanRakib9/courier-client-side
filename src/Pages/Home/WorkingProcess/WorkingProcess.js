@@ -6,36 +6,37 @@ import './WorkingProcess.css'
 const WorkingProcess = () => {
 
      return (
-          <div>
-               <h1 style={{ textAlign: 'center',marginTop:"5%" }}>OUR PROCESS</h1>
-               {/* ----- <FontAwesomeIcon className='section-top-icon' icon={faTruck} fontSize='1em' /> ----- */}
-               <section style={{ marginTop: '5%' }}>
+          <section>
+               <div className='section-header'>
+                    <h1 style={{ marginTop: "5%" }}>OUR <b>PROCESS</b></h1>
+                    ----- <FontAwesomeIcon icon={faTruck} fontSize='2em' style={{ color: 'red' }} /> -----
+               </div>
+               <div style={{ marginTop: '5%' }}>
 
-                    <div className='container'>
+                    <div className='display-container'>
                          <div>
-                              <FontAwesomeIcon icon={faLaptop} fontSize='10em' className='horizontal-gap' />
+                              <FontAwesomeIcon icon={faLaptop} fontSize='10em' className='horizontal-gap hover-effect' />
                               <p>Book Service <br /> (Online/Call/Email) <FontAwesomeIcon icon={faArrowRight} fontSize='1em' className='horizontal-gap' /> </p>
 
                          </div>
                          <div>
-                              <FontAwesomeIcon icon={faTruck} fontSize='10em' className='horizontal-gap' />
-                              {/* <FontAwesomeIcon icon={faArrowRight} fontSize='6em' className='horizontal-gap' /> */}
+                              <FontAwesomeIcon icon={faTruck} fontSize='10em' className='horizontal-gap hover-effect' />
                               <p>Quick Pick Up and Packing <FontAwesomeIcon icon={faArrowRight} fontSize='1em' className='horizontal-gap' /> </p>
                          </div>
+
                          <div>
-                              <FontAwesomeIcon icon={faHome} fontSize='10em' />
-                              {/* <FontAwesomeIcon icon={faArrowRight} fontSize='6em' /> */}
+                              <FontAwesomeIcon icon={faHome} fontSize='10em' className='horizontal-gap hover-effect'/>
                               <p>Sorting At Nearest Hub <FontAwesomeIcon icon={faArrowRight} fontSize='1em' className='horizontal-gap' /> </p>
                          </div>
+
                          <div>
-                              <FontAwesomeIcon icon={faMale} fontSize='10em' className='horizontal-gap' />
-                              {/* <FontAwesomeIcon icon={faArrowRight} fontSize='6em' /> */}
+                              <FontAwesomeIcon icon={faMale} fontSize='10em' className='horizontal-gap hover-effect' />
                               <p>Delivery To Recipient <FontAwesomeIcon icon={faArrowRight} fontSize='1em' className='horizontal-gap' /> </p>
                          </div>
                     </div>
 
-               </section>
-          </div>
+               </div>
+          </section>
      );
 };
 
